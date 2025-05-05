@@ -17,7 +17,7 @@ function Navigation(props) {
                     <a href="/cart" className="flex items-center gap-4 relative">
                         <p className="text-lg">{props.cartCount}</p>
                         <div className="flex items-center gap-2">
-                            <ShoppingCart/>
+                            <ShoppingCart />
                             Cart
                         </div>
                     </a>
